@@ -1,0 +1,13 @@
+[centos-ext]
+name=Extra Packages for xx
+baseurl=http://mirror.centos.org/centos/7/os/x86_64/
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
+
+[epel-ext]
+name=Extra Packages for yy
+baseurl=http://dl.fedoraproject.org/pub/epel/7/x86_64/
+enabled=1
+gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-7
